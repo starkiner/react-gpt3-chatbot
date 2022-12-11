@@ -1,14 +1,14 @@
 const defaultSettings = {
     "STARTING_PROMPT": "A conversation between two people.",
     "STARTING_REQUEST": "Say something!",
-    "MAX_NUM_USER_INPUTS": 3,
-    "USER_PREFIX": "P1: ",
-    "AI_PREFIX": "P2:",
+    "MAX_NUM_USER_INPUTS": 1000,
+    "USER_PREFIX": "",
+    "AI_PREFIX": "",
     "CUT_DIALOGUE_PLACEHOLDER": "...",
     "FREQUENCY_PENALTY": 1,
     "PRESENCE_PENALTY": 1,
-    "MAX_TOKENS": 400,
-    "LANGUAGE": "English"
+    "MAX_TOKENS": 500,
+    "LANGUAGE": ""
 }
 
 const spanishSettings = 
