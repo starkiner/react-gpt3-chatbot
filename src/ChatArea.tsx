@@ -56,7 +56,7 @@ const ChatArea = () => {
                 }
                 else {
                     openai.createCompletion({
-                        model: 'davinci',
+                        model: 'text-curie-001',
                         prompt: prompt,
                         stop: (Cookies.get("userPrefix") || defaultSettings['USER_PREFIX']).trim(),
                         max_tokens: defaultSettings['MAX_TOKENS'],
