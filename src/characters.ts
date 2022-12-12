@@ -1,13 +1,13 @@
 const defaultSettings = {
     "STARTING_PROMPT": "A conversation between two people.",
     "STARTING_REQUEST": "Say something!",
-    "MAX_NUM_USER_INPUTS": 1000,
+    "MAX_NUM_USER_INPUTS": 10000,
     "USER_PREFIX": "",
     "AI_PREFIX": "",
     "CUT_DIALOGUE_PLACEHOLDER": "...",
     "FREQUENCY_PENALTY": 1,
     "PRESENCE_PENALTY": 1,
-    "MAX_TOKENS": 40960,
+    "MAX_TOKENS": 2000,
     "LANGUAGE": ""
 }
 
