@@ -5,8 +5,9 @@ const defaultSettings = {
     "USER_PREFIX": "",
     "AI_PREFIX": "",
     "CUT_DIALOGUE_PLACEHOLDER": "...",
-    "FREQUENCY_PENALTY": 1,
-    "PRESENCE_PENALTY": 1,
+    "FREQUENCY_PENALTY": 0.95,
+    "PRESENCE_PENALTY": 0.95,
+	"TEMPERATURE": 0.95,
     "MAX_TOKENS": 4096,
     "LANGUAGE": ""
 }

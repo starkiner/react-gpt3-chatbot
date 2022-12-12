@@ -58,6 +58,7 @@ const ChatArea = () => {
                     openai.createCompletion({
                         model: 'text-davinci-003',
                         prompt: prompt,
+						temperature: defaultSettings['TEMPERATURE'],
                         stop: (Cookies.get("userPrefix") || defaultSettings['USER_PREFIX']).trim(),
                         max_tokens: defaultSettings['MAX_TOKENS'],
                         frequency_penalty: defaultSettings['FREQUENCY_PENALTY'],
