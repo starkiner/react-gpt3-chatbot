@@ -8,7 +8,7 @@ const defaultSettings = {
     "FREQUENCY_PENALTY": 0.95,
     "PRESENCE_PENALTY": 0.95,
     "TEMPERATURE": 0.95,
-    "MAX_TOKENS": 200,
+    "MAX_TOKENS": 500,
     "LANGUAGE": ""
 }
 
